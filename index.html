@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Digital - Futuro do Saber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Futuro do Saber: Biblioteca Digital</h1>
+        <nav>
+            <ul>
+                <li><a href="#funcionais">Requisitos Funcionais</a></li>
+                <li><a href="#nao-funcionais">Requisitos Não Funcionais</a></li>
+                <li><a href="#inversos">Requisitos Inversos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <div id="funcionais" class="container">
+            <h2>Requisitos Funcionais (RF)</h2>
+            <p>O que o sistema deve fazer:</p>
+            <ul>
+                <li>O sistema deve permitir o login de alunos e professores via RA.</li> <br>
+                <li>O sistema deve disponibilizar a leitura de livros digitais (e-books) em formato PDF/EPUB.</li> <br>
+                <li>O sistema deve permitir a reserva de exemplares físicos.</li> <br> 
+                <li>O aluno deve conseguir visualizar o histórico de seus empréstimos ativos e passados.</li> <br>
+                <li>O sistema deve enviar notificações sobre datas de devolução próximas.</li> <br>
+                <li>O sistema deve permitir a solicitação de materiais complementares aos professores.</li> <br>
+                <li>O sistema deve possuir uma barra de busca por título, autor ou gênero.</li> <br>
+                <li>O sistema deve permitir que o bibliotecário cadastre novos exemplares no acervo.</li> <br>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div id="nao-funcionais" class="container">
+            <h2>Requisitos Não Funcionais (RNF)</h2>
+            <p>Atributos de qualidade e restrições:</p>
+            <ul>
+                <li>O sistema deve ser responsivo (funcionar em celulares e tablets).</li> <br>
+                <li>O tempo de carregamento de um livro digital não deve ultrapassar 5 segundos.</li> <br>
+                <li>A interface deve seguir as normas de acessibilidade (WCAG).</li> <br>
+                <li>O sistema deve estar disponível 99% do tempo (alta disponibilidade).</li> <br>
+                <li>As senhas dos usuários devem ser armazenadas com criptografia.</li> <br>
+                <li>O sistema deve suportar até 500 acessos simultâneos sem perda de performance.</li> <br>
+                <li>O design deve seguir a identidade visual da escola "Futuro do Saber".</li> <br>
+                <li>O banco de dados deve realizar backups automáticos a cada 24 horas.</li> <br>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div id="inversos" class="container">
+            <h2>Requisitos Inversos (RI)</h2>
+            <p>O que o sistema <strong>não</strong> deve fazer/permitir:</p>
+            <ul>
+                <li>O sistema não deve permitir que um aluno reserve mais de 3 livros físicos simultaneamente.</li><br>
+                <li>O sistema não deve permitir a exclusão de registros de empréstimos pendentes.</li><br>
+                <li>O sistema não deve exibir dados pessoais de outros alunos para terceiros.</li><br>
+                <li>O sistema não deve permitir o acesso a livros com classificação indicativa superior à idade do aluno.</li><br>
+                <li>O sistema não deve permitir o download definitivo de arquivos protegidos por direitos autorais (apenas leitura online).</li><br>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: [Emilly Cristine, Laurienny Souza]|3° 2026</p>
+    </footer>
+
+</body>
+</html>
